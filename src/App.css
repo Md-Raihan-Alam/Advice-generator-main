@@ -1,38 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
 .App {
-  text-align: center;
+  width: 90vw;
+  height: auto;
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 600px) {
+  .App {
+    width: 40vw;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+}
+.box:hover {
+  box-shadow: 0px 0px 50px 10px hsl(150, 100%, 66%);
+}
+.header {
+  height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
 }
-
-.App-link {
-  color: #61dafb;
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 28px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.text {
+  width: 80%;
+  height: fit-content;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+.text span::before {
+  content: "\201C";
+}
+.text span::after {
+  content: "\201D";
+}
+.divider {
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+.desktopDivider {
+  display: none;
+}
+.mobileDivider {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .desktopDivider {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .mobileDivider {
+    display: none;
   }
 }
