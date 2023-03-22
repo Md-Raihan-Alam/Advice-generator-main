@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Advice-generator-main/static/css/main.600dac73.css",
-    "main.js": "/Advice-generator-main/static/js/main.759fffbe.js",
+    "main.css": "/Advice-generator-main/static/css/main.c5f36af0.css",
+    "main.js": "/Advice-generator-main/static/js/main.1baa4e95.js",
+    "static/media/square-twitter.svg": "/Advice-generator-main/static/media/square-twitter.84d047a5676a83404653ecb0ecfef2f8.svg",
     "index.html": "/Advice-generator-main/index.html",
+    "static/media/square-facebook.svg": "/Advice-generator-main/static/media/square-facebook.a9d361ecb594b2c8313832f6c9545667.svg",
     "static/media/icon-dice.svg": "/Advice-generator-main/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/Advice-generator-main/static/media/pattern-divider-desktop.94f1024a994a4352ab95657669cf11f8.svg",
     "static/media/pattern-divider-mobile.svg": "/Advice-generator-main/static/media/pattern-divider-mobile.de90f248f90646f6548f3e2adb16ff49.svg",
-    "main.600dac73.css.map": "/Advice-generator-main/static/css/main.600dac73.css.map",
-    "main.759fffbe.js.map": "/Advice-generator-main/static/js/main.759fffbe.js.map"
+    "main.c5f36af0.css.map": "/Advice-generator-main/static/css/main.c5f36af0.css.map",
+    "main.1baa4e95.js.map": "/Advice-generator-main/static/js/main.1baa4e95.js.map"
   },
   "entrypoints": [
-    "static/css/main.600dac73.css",
-    "static/js/main.759fffbe.js"
+    "static/css/main.c5f36af0.css",
+    "static/js/main.1baa4e95.js"
   ]
 }
